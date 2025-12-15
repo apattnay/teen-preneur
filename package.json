@@ -1,7 +1,7 @@
 {
   "name": "teen-preneur",
   "version": "1.0.0",
-  "description": "Teen Preneur is a platform for teen to incubate idea to create impact and grow for a teenager till age 19",
+  "description": "Teen Preneur is a platform for teens to incubate ideas, create impact, and grow as entrepreneurs until age 19",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
