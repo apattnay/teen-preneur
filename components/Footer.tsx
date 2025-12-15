@@ -18,6 +18,11 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Platform</h4>
             <ul className="space-y-2">
               <li>
+                <Link href="/idea-survey" className="text-gray-400 hover:text-white transition">
+                  Idea Survey
+                </Link>
+              </li>
+              <li>
                 <Link href="/mentor-hub" className="text-gray-400 hover:text-white transition">
                   Mentor Hub
                 </Link>

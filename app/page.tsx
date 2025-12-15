@@ -65,6 +65,12 @@ export default function Home() {
             Our Platform
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Link href="/idea-survey" className="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+              <h3 className="text-xl font-bold mb-3 text-primary-600">Idea Survey</h3>
+              <p className="text-gray-600">
+                Validate your startup idea with community voting and feedback before building.
+              </p>
+            </Link>
             <Link href="/mentor-hub" className="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
               <h3 className="text-xl font-bold mb-3 text-primary-600">Mentor Hub</h3>
               <p className="text-gray-600">
@@ -95,12 +101,6 @@ export default function Home() {
                 Build your entrepreneurial portfolio for college applications.
               </p>
             </Link>
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-xl font-bold mb-3 text-primary-600">Ages 13-19</h3>
-              <p className="text-gray-600">
-                Designed specifically for teenage entrepreneurs ready to make an impact.
-              </p>
-            </div>
           </div>
         </div>
       </section>

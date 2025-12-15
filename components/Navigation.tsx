@@ -17,6 +17,9 @@ export default function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
+            <Link href="/idea-survey" className="text-gray-700 hover:text-primary-600 transition">
+              Idea Survey
+            </Link>
             <Link href="/mentor-hub" className="text-gray-700 hover:text-primary-600 transition">
               Mentor Hub
             </Link>
@@ -68,6 +71,13 @@ export default function Navigation() {
         {isMenuOpen && (
           <div className="md:hidden pb-4">
             <div className="flex flex-col space-y-4">
+              <Link
+                href="/idea-survey"
+                className="text-gray-700 hover:text-primary-600 transition"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Idea Survey
+              </Link>
               <Link
                 href="/mentor-hub"
                 className="text-gray-700 hover:text-primary-600 transition"
