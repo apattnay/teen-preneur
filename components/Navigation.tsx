@@ -70,7 +70,7 @@ export default function Navigation() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden pb-4 border-t border-gray-100 mt-2 pt-4 animate-slideDown">
+          <div className="md:hidden pb-4 border-t border-gray-100 mt-2 pt-4">
             <div className="flex flex-col space-y-3">
               <Link
                 href="/idea-survey"
