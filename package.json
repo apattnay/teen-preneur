@@ -1,0 +1,22 @@
+{
+  "name": "teen-preneur",
+  "version": "1.0.0",
+  "description": "Teen Preneur - An incubator platform for teenage entrepreneurs to build, create, and present startups",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -o",
+    "dev": "npx http-server . -p 8080"
+  },
+  "keywords": [
+    "entrepreneurship",
+    "incubator",
+    "startup",
+    "teen",
+    "mentorship"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
